@@ -1,0 +1,56 @@
+header {
+    background-color: #fff;
+    width: 20vw;
+    height: 60vh;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+
+    .input{
+        border-color: #fff;
+
+        label , label:focus{
+            color: #476ebb;
+        }
+
+        input, input:focus{
+            color: #476ebb;
+        }
+
+        div::after , div::before, div:hover{
+            border-color: #476ebb;
+        }
+    }
+
+    .src-btn:hover, .src-btn {
+        background-color: #fff;
+        color: #476ebb;
+    }
+
+    .infobox{
+        margin-top: 20px;
+
+        .icon{
+            font-size: 40px;
+            animation: updown;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes updown {
+            0% {transform: translateY(0);}
+            25% {transform: translateY(-10px);}
+            75%{transform: translateY(10px);}
+            100%{transform: translateY(0);}
+        }
+
+        h2{
+            text-transform: capitalize;
+            display: inline-block;
+            font-size: 40px;
+            font-weight: 500;
+        }
+    }
+
+}

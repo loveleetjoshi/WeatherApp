@@ -1,0 +1,90 @@
+header {
+  background-color: #fff;
+  width: 20vw;
+  height: 60vh;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+}
+
+header .input {
+  border-color: #fff;
+}
+
+header .input label, header .input label:focus {
+  color: #476ebb;
+}
+
+header .input input, header .input input:focus {
+  color: #476ebb;
+}
+
+header .input div::after, header .input div::before, header .input div:hover {
+  border-color: #476ebb;
+}
+
+header .src-btn:hover, header .src-btn {
+  background-color: #fff;
+  color: #476ebb;
+}
+
+header .infobox {
+  margin-top: 20px;
+}
+
+header .infobox .icon {
+  font-size: 40px;
+  -webkit-animation: updown;
+          animation: updown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes updown {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  75% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes updown {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  75% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+header .infobox h2 {
+  text-transform: capitalize;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=weather.css.map */
