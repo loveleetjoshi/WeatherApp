@@ -87,4 +87,12 @@ header .infobox h2 {
   font-size: 40px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1024px) {
+  header {
+    background-color: #fff;
+    width: 80vw;
+    height: 60vh;
+  }
+}
 /*# sourceMappingURL=weather.css.map */

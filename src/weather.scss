@@ -54,3 +54,11 @@ header {
     }
 
 }
+
+@media screen and (max-width:1024px) {
+    header {
+        background-color: #fff;
+        width: 80vw;
+        height: 60vh;
+    }
+}
